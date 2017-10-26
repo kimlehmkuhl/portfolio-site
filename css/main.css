@@ -15,11 +15,6 @@ h1.title { font-size: 30px; max-width: 400px;
 h1, h2, h3, h4 {
     font-family: 'Cutive Mono', monospace;
     width: 400px;
-}
-
-h3 {
-    font-color: #1BA6C2;
-    text-align: center;
 }	    
 
 ol li, ul li {
@@ -60,6 +55,7 @@ a:hover {
 
 img.arrow {
     background-color: white;
+    display: inline-block;
 }
 
 #credit {
