@@ -53,9 +53,17 @@ a:hover {
     color: #335564;
 }
 
-img.arrow {
+img.arrow-prev {
     background-color: white;
-    display: inline-block;
+    display: inline;
+    float: left; 
+    margin: 5px 15px 5px 0;
+}
+
+img.arrow-next {
+    background-color: white;
+    float: right; 
+    margin: 5px 0 5px 15px;
 }
 
 #credit {
