@@ -57,13 +57,13 @@ img.arrow-prev {
     background-color: white;
     display: inline;
     float: left; 
-    margin: 5px 15px 5px 0;
+    margin: 0px 0px 20px 0px;
 }
 
 img.arrow-next {
     background-color: white;
     float: right; 
-    margin: 5px 0 5px 15px;
+    margin: 0px 20px 0px 0px;
 }
 
 #credit {
