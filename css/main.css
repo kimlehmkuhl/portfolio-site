@@ -325,7 +325,7 @@ a { text-decoration: none;}
 .jcarousel {
     position: relative;
     overflow: hidden;
-
+    width: 90%;
 }
 
 /* ==========================================================================
@@ -352,7 +352,7 @@ have a fixed width and height (but it's not required).
 .jcarousel li {
     /* Required only for block elements like <li>'s */
     float: left;
-    width: 100%;
+    width: 600px;
     height: 100%;
 }
 
