@@ -59,7 +59,7 @@ a:hover {
 }
 
 img.arrow {
-    background-color: #white;
+    background-color: white;
 }
 
 #credit {
@@ -290,8 +290,6 @@ nav a {
    Author's custom styles
    ========================================================================== */
 
-
-
 .btn {
     color: #fff;
     padding: 10px;
@@ -323,7 +321,7 @@ a { text-decoration: none;}
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 90%;
+    width: 600px;
 }
 
 /* ==========================================================================
@@ -352,19 +350,6 @@ have a fixed width and height (but it's not required).
     float: left;
     width: 100%;
     height: 100%;
-}
-
-
-/* ==========================================================================
-These are the carousel navigation arrows
-========================================================================== */
-
-a.jcarousel-prev {
-    text-decoration: none;
-}
-
-a.jcarousel-next {
-    text-decoration: none;
 }
 
 
