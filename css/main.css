@@ -350,7 +350,7 @@ have a fixed width and height (but it's not required).
 These are the carousel navigation arrows
 ========================================================================== */
 
-.jcarousel-next a {
+.jcarousel-prev a {
     font-size: 5em;
     line-height: 1.4;
     font-style: bold;
@@ -362,8 +362,6 @@ These are the carousel navigation arrows
     font-style: bold;
 }
 
- 	font-size: 5em;
-    line-height: 1.4;
 
 /* ==========================================================================
    Media Queries
