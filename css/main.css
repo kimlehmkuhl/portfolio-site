@@ -321,7 +321,7 @@ a { text-decoration: none;}
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
 }
 
 /* ==========================================================================
