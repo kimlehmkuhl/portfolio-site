@@ -62,6 +62,7 @@ a:hover {
 #email {
     font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
+    background-color: #85CBDB;
 }
 
 hr {
@@ -311,7 +312,6 @@ a { text-decoration: none;}
     position: relative;
     overflow: hidden;
     width: 90%;
-    border: solid;
 }
 
 /* ==========================================================================
