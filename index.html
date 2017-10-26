@@ -171,15 +171,9 @@
     </script>
     
     <script type="text/javascript">
-        $(function () {
-        $('img').live('mouseover', function () {
-            var img = $(this); // cache query
-            if (img.title) {
-            return;
-        }
-    img.attr('title', img.attr('alt'));
-        });
-        });
+        function showAlt(){$(this).replaceWith(this.alt)};
+        function addShowAlt(selector){$(selector).error(showAlt).attr("src", $(selector).src)};
+        addShowAlt("img");
     </script>
     
 
