@@ -59,7 +59,7 @@ a:hover {
     font-size: 0.75em;
 }
 
-#email {
+.email img {
     font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
     background-color: #85CBDB;
@@ -311,7 +311,7 @@ a { text-decoration: none;}
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 90%;
+    width: 100%;
 }
 
 /* ==========================================================================
