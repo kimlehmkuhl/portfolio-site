@@ -59,9 +59,12 @@ a:hover {
     font-size: 0.75em;
 }
 
-.email img {
-    font-family: 'Roboto', sans-serif;
+#email {
+font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
+}
+
+.email img {
     background-color: #85CBDB;
 }
 
@@ -348,16 +351,19 @@ These are the carousel navigation arrows
 ========================================================================== */
 
 .jcarousel-next a {
-    font-size: 4em;
+    font-size: 5em;
+    line-height: 1.4;
     font-style: bold;
-    float: right;
 }
 
 .jcarousel-next a {
-    font-size: 4em;
+    font-size: 5em;
+    line-height: 1.4;
     font-style: bold;
-    float: right;
 }
+
+ 	font-size: 5em;
+    line-height: 1.4;
 
 /* ==========================================================================
    Media Queries
