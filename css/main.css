@@ -59,6 +59,10 @@ a:hover {
     font-size: 0.75em;
 }
 
+#email {
+    font-family: 'Roboto', sans-serif;
+}
+
 hr {
     display: block;
     height: 1px;
