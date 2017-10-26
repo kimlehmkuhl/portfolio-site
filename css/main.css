@@ -69,8 +69,8 @@ hr {
 }
 
 img {
-    bgcolor: #1BA6C2;
-    color: white;
+    background-color: #1BA6C2;
+    color: #ffffff;
 }
 
 input[type="text"], input[type="email"] {
