@@ -141,13 +141,13 @@
         <div class="footer-container">
             <footer class="wrapper">
                 <div id="credit"><p>[Icons made by <a href="http://handdrawngoods.com/" target="blank">Hand Drawn Goods</a> and <a href="http://www.freepik.com/" target="blank">Freepik</a> from <a href="https://www.flaticon.com/" target="blank">flaticon.com</a>]</p></div>
-                <h3>Kim Lehmkuhl <a href="https://aemail.com/81o"><img src="file:///Users/local/Desktop/microsite/images/email.png"></a><br>Washington, DC</h3>
+                <h3>Kim Lehmkuhl <a href="https://aemail.com/81o"><img src="/images/email.png"></a><br>Washington, DC</h3>
             </footer>
         </div>
 
   <!-- jCarousel required files: jQuery library and jCarousel source file -->
-    <script src="file:///Users/local/Desktop/microsite/jquery-3.2.1.js" type="text/javascript"></script>
-    <script src="file:///Users/local/Desktop/microsite/jquery.jcarousel.js" type="text/javascript"></script>
+    <script src="/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="/jquery.jcarousel.js" type="text/javascript"></script>
     <script type="text/javascript">
         $( document ).ready(function() {
             console.log( "ready!" );
@@ -169,6 +169,19 @@
         });
     });
     </script>
+    
+    <script type="text/javascript">
+        $(function () {
+        $('img').live('mouseover', function () {
+            var img = $(this); // cache query
+            if (img.title) {
+            return;
+        }
+    img.attr('title', img.attr('alt'));
+        });
+        });
+    </script>
+    
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
