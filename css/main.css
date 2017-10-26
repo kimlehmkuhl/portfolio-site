@@ -75,7 +75,7 @@ hr {
 }
 
 img {
-    background-color: #85CBDB;
+    background-color: #1BA6C2;
     color: #ffffff;
     font-style: italic;
 }
@@ -89,7 +89,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: #1BA6C2 url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png") no-repeat center 43%;
+	background: #1BA6C2 url("/images/top.png") no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
