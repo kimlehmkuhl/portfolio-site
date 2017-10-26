@@ -67,6 +67,10 @@ img.arrow-next {
     margin: 0px 50px 0px 0px;
 }
 
+div::after {
+  content: "";
+}
+
 #credit {
     float:right;
     padding-top: 50px;
@@ -89,10 +93,6 @@ hr {
     border-top: 1px solid #A9B2B0;
     margin: 1em 0;
     padding: 0;
-}
-
-hr.forced-break {
-    margin: 60px 0px 0px 0px;
 }
 
 img {
