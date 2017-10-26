@@ -22,6 +22,12 @@ ol li, ul li {
     list-style-type: none;
 }
 
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
 a:link {
   color: #1BA6C2;
 }
