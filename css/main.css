@@ -23,7 +23,9 @@ ol li, ul li {
 }
 
 p.blocktext {
+    margin-top: -10px;
     margin-left: auto;
+    margin-bottom: -10px;
     margin-right: auto;
     width: 100%;
 }
