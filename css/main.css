@@ -55,15 +55,15 @@ a:hover {
 
 img.arrow-prev {
     background-color: white;
-    display: inline;
+    display: inline-block;
     float: left; 
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 30px;
 }
 
 img.arrow-next {
     background-color: white;
     float: right; 
-    margin: 0px 20px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 #credit {
