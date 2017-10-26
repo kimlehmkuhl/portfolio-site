@@ -171,8 +171,19 @@
         });
     });
     </script>
+                         
                             
-    
+    <!-- back to top button -->                            
+        var amountScrolled = 300;
+
+            $(window).scroll(function() {
+	            if ( $(window).scrollTop() > amountScrolled ) {
+		            $('a.back-to-top').fadeIn('slow');
+	            } else {
+		            $('a.back-to-top').fadeOut('slow');
+	            }
+            });
+                            
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
