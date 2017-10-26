@@ -57,13 +57,13 @@ img.arrow-prev {
     background-color: white;
     display: inline;
     float: left; 
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 50px;
 }
 
 img.arrow-next {
     background-color: white;
     float: right; 
-    margin: 0px 30px 0px 0px;
+    margin: 0px 50px 0px 0px;
 }
 
 #credit {
@@ -91,7 +91,7 @@ hr {
 }
 
 hr.forced-break {
-    margin: 30px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
 }
 
 img {
