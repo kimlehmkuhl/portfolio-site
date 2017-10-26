@@ -71,6 +71,7 @@ hr {
 img {
     background-color: #1BA6C2;
     color: #ffffff;
+    padding: 10px;
 }
 
 input[type="text"], input[type="email"] {
