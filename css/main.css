@@ -61,6 +61,7 @@ a:hover {
 
 #email {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
 }
 
 hr {
@@ -75,7 +76,7 @@ hr {
 img {
     background-color: #1BA6C2;
     color: #ffffff;
-    padding: 10px;
+    font-style: oblique;
 }
 
 a.back-to-top {
