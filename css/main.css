@@ -4,25 +4,66 @@ body {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-h1.title { font-size: 30px; max-width: 400px; line-height: 1.2;
+h1.title { font-size: 30px; max-width: 400px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Cutive Mono', monospace;
+    width: 400px;
 }
 
 ol li, ul li {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+a:link {
+  color: #1BA6C2;
+}
+
+a:visited {
+    color: #1BA6C2;
+}
+
+a:hover {
+    color: #A9B2B0;   
+    text-decoration: underline;
+}
+
+.header-container a,
+.footer-container a,
+.main aside a {
+    color: white;
+}
+
+.header-container a:visited,
+.footer-container a:visited,
+.main aside a:visited {
+    color: #747474;
+}
+
+.header-container a:hover,
+.footer-container a:hover,
+.main aside a:hover {
+    color: #335564;
+}
+
+#credit {
+    float:right;
+    padding-top: 50px;
+    font-size: 0.75em;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #A9B2B0;
     margin: 1em 0;
     padding: 0;
 }
@@ -53,22 +94,22 @@ textarea {
 }
 
 /* ===================
-    INDEX.HTML: Orange Theme
+    INDEX.HTML: Blues Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #1BA6C2;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #1BA6C2;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #85CBDB;
 }
 
 .title {
@@ -172,32 +213,17 @@ body#googlegroups aside, body#googlegroups .header-container {
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px 0px 110px 0px;
     list-style-type: none;
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
+    display: inline-block;
     text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
+    background: #1BA6C2;
 }
 
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 
 /* ==============
     MOBILE: Main
@@ -249,13 +275,59 @@ nav a:hover {
 a { text-decoration: none;}
 
 
+/* ==========================================================================
+   jCarousel style - Set a width here to define how much items are visible.
+   The width can be either fixed in px or flexible in %.
+   Position must be relative!
+   ========================================================================== */
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    border: solid;
+}
+
+/* ==========================================================================
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+========================================================================== */
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+These are the item (list) elements. jCarousel works best if the items
+have a fixed width and height (but it's not required).
+========================================================================== */
+
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    width: 600px;
+    height: 100%;
+}
 
 
+/* ==========================================================================
+These are the carousel navigation arrows
+========================================================================== */
 
+.jcarousel-next a {
 
+}
 
-
-
+.jcarousel-next a {
+    
+}
 
 /* ==========================================================================
    Media Queries
