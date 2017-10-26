@@ -68,6 +68,10 @@ hr {
     padding: 0;
 }
 
+img {
+    color:#85CBDB
+}
+
 input[type="text"], input[type="email"] {
     width: 100%;
     margin-bottom: 10px;
