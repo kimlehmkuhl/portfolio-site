@@ -58,6 +58,10 @@ a:hover {
     color: #335564;
 }
 
+img.arrow {
+    background-color: #white;
+}
+
 #credit {
     float:right;
     padding-top: 50px;
