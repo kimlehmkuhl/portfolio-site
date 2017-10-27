@@ -67,8 +67,8 @@ img.arrow-next {
     margin: 0px 50px 0px 0px;
 }
 
-#break::after {
-  content: "";
+div::after {
+  content: "is this going to work, probably not";
 }
 
 #credit {
