@@ -64,7 +64,7 @@ img.arrow-prev {
 img.arrow-next {
     background-color: white;
     float: right; 
-    margin: 0px 200px 0px 0px;
+    margin: 0px 350px 0px 0px;
 }
 
 #credit {
@@ -166,6 +166,17 @@ textarea {
     color: white;
 }
 
+/* ===================
+    Auto-scrolling sidebar
+   =================== */
+
+main.container { 
+  position: relative; 
+}
+
+main.aside { 
+  position: fixed;  
+}
 
 /* ===================
     googlegroups.html theme - Star Wars
