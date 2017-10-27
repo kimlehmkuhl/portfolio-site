@@ -67,7 +67,7 @@ img.arrow-next {
     margin: 0px 50px 0px 0px;
 }
 
-.break::after {
+.break::before {
   content: "is this going to work, probably not";
   display: block;
   height: 50px;
