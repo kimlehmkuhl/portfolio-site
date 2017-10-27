@@ -67,8 +67,8 @@ img.arrow-next {
     margin: 0px 50px 0px 0px;
 }
 
-div:after {
-  content: " ";
+div.break::after {
+  content: "";
 }
 
 #credit {
