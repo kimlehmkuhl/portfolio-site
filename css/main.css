@@ -69,6 +69,8 @@ img.arrow-next {
 
 .break::after {
   content: "is this going to work, probably not";
+  display: block;
+  height: 50px;
 }
 
 #credit {
