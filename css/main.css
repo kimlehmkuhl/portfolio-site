@@ -287,6 +287,7 @@ nav a {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
+    display: hidden;
 }
 
 .footer-container footer {
