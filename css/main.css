@@ -116,11 +116,7 @@ ol li, ul li {
 .break::before {
   content: "";
   display: block;
-  height: 50px;
-}
-
-.footer {
-    clear: both;
+  height: 30px;
 }
 
 #credit {
