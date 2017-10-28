@@ -68,7 +68,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: calc(10vh - 50px);
+  top: calc(10vh - 200px);
 }
 
 a:link {
