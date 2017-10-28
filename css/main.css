@@ -68,7 +68,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: calc(10vh - 200px);
+  top: 100vh;
 }
 
 a:link {
@@ -101,6 +101,7 @@ hr {
 img.arrow-prev {
     background-color: transparent;
     display: block;
+    margin-top: 5px;
     margin-bottom: -35px;
 }
 
