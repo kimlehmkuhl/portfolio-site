@@ -1,14 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-body {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 .wrapper {
     width: 90%;
     margin: 0 5%;
@@ -27,6 +18,28 @@ a.back-to-top {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
+}
+
+body {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a:link {
+  color: #1BA6C2;
+}
+
+a:visited {
+    color: #1BA6C2;
+}
+
+a:hover {
+    color: #A9B2B0;   
+    text-decoration: underline;
 }
 
 .header-container a,
@@ -68,20 +81,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: calc(5vh - 200px);
-}
-
-a:link {
-  color: #1BA6C2;
-}
-
-a:visited {
-    color: #1BA6C2;
-}
-
-a:hover {
-    color: #A9B2B0;   
-    text-decoration: underline;
+  top: calc(10vh - 200px);
 }
 
 hr {
@@ -114,10 +114,8 @@ ol li, ul li {
     list-style-type: none;
 }
 
-#credit {
-    float:right;
-    padding-top: 50px;
-    font-size: 0.75em;
+h3, p { 
+    display:inline; 
 }
 
 #email {
