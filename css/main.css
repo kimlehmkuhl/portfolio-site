@@ -287,7 +287,6 @@ nav a {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
-    display: hidden;
 }
 
 .footer-container footer {
@@ -389,6 +388,11 @@ have a fixed width and height (but it's not required).
 
     nav li:last-child a {
         margin-right: 0;
+    }
+    
+    .main aside {
+        visibility: hidden;
+        display: none;
     }
 
 /* ========================
