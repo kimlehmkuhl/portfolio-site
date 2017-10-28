@@ -85,7 +85,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: calc(10vh - 180px);
+  top: calc(10vh - 150px);
 }
 
 hr {
@@ -273,6 +273,10 @@ nav a {
     display: inline;
     text-align: center;
     background: #1BA6C2;
+}
+
+nav a:hover {
+    color: #747474;
 }
 
 
