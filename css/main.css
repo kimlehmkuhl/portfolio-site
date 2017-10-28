@@ -9,30 +9,24 @@ body {
     text-justify: inter-word;
 }
 
-h1.title { font-size: 30px; max-width: 400px;
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Cutive Mono', monospace;
-    width: 400px;
-}	    
-
-ol li, ul li {
-    padding-bottom: 10px;
-    list-style-type: none;
-}
-
-a:link {
-  color: #1BA6C2;
-}
-
-a:visited {
-    color: #1BA6C2;
-}
-
-a:hover {
-    color: #A9B2B0;   
-    text-decoration: underline;
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #1BA6C2 url("/images/top.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .header-container a,
@@ -53,33 +47,39 @@ a:hover {
     color: #335564;
 }
 
-img.arrow-prev {
-    background-color: white;
-    display: inline-block;
-    float: left; 
-    margin: 0px 0px 0px 100px;
-    overflow: hidden;
+h1, h2, h3, h4 {
+    font-family: 'Cutive Mono', monospace;
+    width: 400px;
+}   
+
+h1.title { 
+    font-size: 30px; max-width: 400px;
+    color: white;
 }
 
-img.arrow-next {
-    background-color: white;
-    float: right; 
-    margin: 0px 300px 0px 0px;
+img {
+    background-color: #1BA6C2;
+    color: #ffffff;
+    font-style: italic;
+}  
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(10vh - 200px);
 }
 
-#credit {
-    float:right;
-    padding-top: 50px;
-    font-size: 0.75em;
+a:link {
+  color: #1BA6C2;
 }
 
-#email {
-font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
+a:visited {
+    color: #1BA6C2;
 }
 
-img.email {
-    background-color: #85CBDB;
+a:hover {
+    color: #A9B2B0;   
+    text-decoration: underline;
 }
 
 hr {
@@ -91,31 +91,46 @@ hr {
     padding: 0;
 }
 
+.center {
+  margin: 0 auto;
+  width: 100px;
+}
+
+img.arrow-prev {
+    background-color: transparent;
+    display: block;
+    margin-bottom: -35px;
+}
+
+img.arrow-next {
+    background-color: transparent;
+}
+
+ol li, ul li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
 .break::before {
   content: "";
   display: block;
   height: 50px;
 }
 
-img {
-    background-color: #1BA6C2;
-    color: #ffffff;
-    font-style: italic;
+.footer {
+    clear: both;
 }
 
-a.back-to-top {
-	display: none;
-	width: 60px;
-	height: 60px;
-	text-indent: -9999px;
-	position: fixed;
-	z-index: 999;
-	right: 20px;
-	bottom: 20px;
-	background: #1BA6C2 url("/images/top.png") no-repeat center 43%;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
+#credit {
+    float:right;
+    padding-top: 50px;
+    font-size: 0.75em;
+}
+
+#email {
+    background-color: #85CBDB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;   
 }
 
 input[type="text"], input[type="email"] {
@@ -137,12 +152,6 @@ textarea {
     resize: vertical;
 }
 
-
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
 /* ===================
     INDEX.HTML: Blues Theme
    =================== */
@@ -162,21 +171,6 @@ textarea {
     background: #85CBDB;
 }
 
-.title {
-    color: white;
-}
-
-/* ===================
-    Auto-scrolling sidebar
-   =================== */
-
-main.container { 
-  position: relative; 
-}
-
-main.aside { 
-  position: fixed;  
-}
 
 /* ===================
     googlegroups.html theme - Star Wars
@@ -320,6 +314,7 @@ nav a {
     display: block;
     text-align: center;
 }
+
 .btn:hover {
     cursor: pointer;
     border-bottom: 1px solid #fff;
@@ -328,9 +323,11 @@ nav a {
 .btn.facebook {
     background: #3b5998;
 }
+
 .btn.normal {
     background: #0F9D58;
 }
+
 a { text-decoration: none;}
 
 
@@ -374,7 +371,6 @@ have a fixed width and height (but it's not required).
     width: 600px;
     height: 100%;
 }
-
 
 /* ==========================================================================
    Media Queries
@@ -449,7 +445,7 @@ have a fixed width and height (but it's not required).
         float: left;
         width: 57%;
     }
-
+ 
     .main aside {
         float: right;
         width: 28%;
