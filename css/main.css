@@ -368,6 +368,15 @@ have a fixed width and height (but it's not required).
    Media Queries
    ========================================================================== */
 
+
+@media only screen and (max-width: 600px) {
+    .main aside {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
 @media only screen and (min-width: 480px) {
 
 /* ====================
@@ -389,11 +398,7 @@ have a fixed width and height (but it's not required).
     nav li:last-child a {
         margin-right: 0;
     }
-    
-    .main aside {
-        visibility: hidden;
-        display: none;
-    }
+   
 
 /* ========================
     INTERMEDIATE: IE Fixes
