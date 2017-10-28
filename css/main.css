@@ -61,6 +61,8 @@ img {
     background-color: #1BA6C2;
     color: #ffffff;
     font-style: italic;
+    max-width: 100%;
+    height: auto;
 }  
 
 .sticky {
