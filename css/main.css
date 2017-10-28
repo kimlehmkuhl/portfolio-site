@@ -68,7 +68,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 100vh;
+  top: 10vh;
 }
 
 a:link {
@@ -117,7 +117,7 @@ ol li, ul li {
 .break::before {
   content: "";
   display: block;
-  height: 30px;
+  height: 20px;
 }
 
 #credit {
