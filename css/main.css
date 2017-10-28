@@ -68,7 +68,7 @@ img {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: calc(100% - 0px) calc(100% - 100px);
+  top: calc(10vh - 50px);
 }
 
 a:link {
@@ -112,12 +112,6 @@ img.arrow-next {
 ol li, ul li {
     padding-bottom: 10px;
     list-style-type: none;
-}
-
-.break::before {
-  content: "";
-  display: block;
-  height: 10px;
 }
 
 #credit {
