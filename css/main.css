@@ -265,7 +265,6 @@ nav ul {
 
 nav a {
     display: inline;
-    width: 27%;
     text-align: center;
     background: #1BA6C2;
 }
@@ -385,10 +384,10 @@ have a fixed width and height (but it's not required).
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
+    
     nav a {
-        display: inline;
         float: left;
+        width: 27%;
         margin: 0 1.7%;
         padding: 27px 2%;
         margin-bottom: 0;
