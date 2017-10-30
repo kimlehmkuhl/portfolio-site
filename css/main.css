@@ -26,10 +26,7 @@ body {
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
-}
-
-p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 a:link {
