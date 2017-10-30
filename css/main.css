@@ -392,7 +392,6 @@ have a fixed width and height (but it's not required).
 
     nav a {
         float: left;
-        width: 27%;
         margin: 0 1.7%;
         padding: 27px 2%;
         margin-bottom: 0;
