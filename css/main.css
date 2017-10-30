@@ -259,13 +259,13 @@ body#googlegroups aside, body#googlegroups .header-container {
 
 nav ul {
     margin: 0px;
-    width: 27%;
     padding: 0px 0px 110px 0px;
     list-style-type: none;
 }
 
 nav a {
     display: inline;
+    width: 27%;
     text-align: center;
     background: #1BA6C2;
 }
