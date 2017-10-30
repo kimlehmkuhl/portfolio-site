@@ -389,6 +389,7 @@ have a fixed width and height (but it's not required).
    ==================== */
 
     nav a {
+        display: inline;
         float: left;
         margin: 0 1.7%;
         padding: 27px 2%;
