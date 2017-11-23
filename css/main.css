@@ -28,6 +28,11 @@ body {
     text-align: left;
 }
 
+p { 
+    display:inline; 
+	margin-bottom: 5px;
+}
+
 a:link {
   color: #1BA6C2;
 }
@@ -60,7 +65,8 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Cutive Mono', monospace;
+    display:inline;
+	font-family: 'Cutive Mono', monospace;
     width: 400px;
 }   
 
@@ -125,10 +131,6 @@ img.arrow-next {
 ol li, ul li {
     padding-bottom: 10px;
     list-style-type: none;
-}
-
-h3, p { 
-    display:inline; 
 }
 
 #email {
