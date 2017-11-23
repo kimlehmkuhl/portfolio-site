@@ -28,17 +28,17 @@ body {
     text-align: left;
 }
 
-a:link {
-	color: #1BA6C2;
-}
-
-a.icon a:link {
+a.icon {
 	text-decoration: underline;
 }
 
-a.js a:link {
+a.js {
 	color: #ffffff;
 	text-decoration: underline;
+}
+
+a:link {
+	color: #1BA6C2;
 }
 
 a:visited {
