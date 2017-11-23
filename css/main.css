@@ -85,19 +85,20 @@ noscript a:link {
 
 img {
     background-color: #1BA6C2;
+    max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+img p {
     color: #ffffff;
     font-style: italic;
-    max-width: 100%;
-    x-overflow: auto;
-	height: auto;
 	padding: 5px;
-	margin: 5px;
 }
 
 img a:hover {
 	text-decoration: underline;
 }
-
 
 .sticky {
   position: -webkit-sticky;
