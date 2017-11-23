@@ -28,14 +28,6 @@ body {
     text-align: left;
 }
 
-noscript {
-    background-color: #1BA6C2;
-    color: #ffffff;
-    font-style: italic;
-    width: 100%;
-    height: auto;
-} 
-
 a:link {
 	color: #1BA6C2;
 }
@@ -51,8 +43,7 @@ a:hover {
 
 .header-container a,
 .footer-container a,
-.main aside a, 
-.main noscript a {
+.main aside a {
     color: #ffffff;
 }
 
@@ -78,6 +69,18 @@ h1.title {
     color: #ffffff;
 } 
 	
+.noscript {
+    background-color: #1BA6C2;
+    color: #ffffff;
+    font-style: italic;
+    width: 100%;
+    height: auto;
+} 
+
+.noscript a {
+	color: #ffffff;
+}
+
 img {
 	background-color: #1BA6C2;
 	color: #ffffff;
