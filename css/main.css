@@ -33,9 +33,23 @@ p {
 	margin: 0px 0px 5px 0px;
 }
 
+noscript p {
+    background-color: #1BA6C2;
+    color: #ffffff;
+    font-style: italic;
+    max-width: 100%;
+    height: auto;
+	padding: 5px;
+	margin-top: 5px;
+} 
+
 a:link {
   color: #1BA6C2;
 }
+
+noscript a:link {
+    color: #ffffff;
+}  
 
 a:visited {
     color: #1BA6C2;
@@ -72,21 +86,7 @@ h1, h2, h3, h4 {
 h1.title { 
     font-size: 30px; max-width: 400px;
     color: #ffffff;
-}
-
-noscript p {
-    background-color: #1BA6C2;
-    color: #ffffff;
-    font-style: italic;
-    max-width: 100%;
-    height: auto;
-	padding: 5px;
-	margin-top: 5px;
-}  
-
-noscript a:link {
-    color: #ffffff;
-}  
+} 
 	
 img {
 	background-color: #1BA6C2;
