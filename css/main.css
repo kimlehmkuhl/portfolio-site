@@ -6,11 +6,18 @@
 }
 
 noscript p {
-    font-size: 2em;
-    font-weight: bold;
+    background-color: #1BA6C2;
+    color: #ffffff;
     font-style: italic;
-    text-align: center;
-}
+    max-width: 100%;
+    height: auto;
+	padding: 5px;
+}  
+
+noscript a {
+    color: #ffffff;
+    font-style: 
+}  
 
 a.back-to-top {
     display: none;
@@ -82,6 +89,7 @@ img {
     font-style: italic;
     max-width: 100%;
     height: auto;
+	padding: 5px;
 }  
 
 .sticky {
