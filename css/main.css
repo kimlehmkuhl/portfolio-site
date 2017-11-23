@@ -45,10 +45,6 @@ a:link {
 	color: #1BA6C2;
 }
 
-.noscript a:link {
-	color: #ffffff;
-}  
-
 a:visited {
     color: #1BA6C2;
 }
@@ -60,7 +56,8 @@ a:hover {
 
 .header-container a,
 .footer-container a,
-.main aside a {
+.main aside a
+.main article section noscript a {
     color: #ffffff;
 }
 
