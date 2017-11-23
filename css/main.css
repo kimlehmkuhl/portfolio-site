@@ -75,6 +75,7 @@ noscript {
     font-style: italic;
     width: 100%;
     height: auto;
+	margin: 1em 0 1em 0;
 } 
 
 noscript a:link {
