@@ -45,7 +45,7 @@ a:link {
 	color: #1BA6C2;
 }
 
-noscript a:link {
+.noscript a:link {
 	color: #ffffff;
 }  
 
