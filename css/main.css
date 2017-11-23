@@ -12,11 +12,11 @@ noscript p {
     max-width: 100%;
     height: auto;
 	padding: 5px;
+	margin: 5px;
 }  
 
-noscript a {
+noscript a:link {
     color: #ffffff;
-    font-style: 
 }  
 
 a.back-to-top {
@@ -88,8 +88,10 @@ img {
     color: #ffffff;
     font-style: italic;
     max-width: 100%;
-    height: auto;
+    x-overflow: scroll;
+	height: auto;
 	padding: 5px;
+	margin: 5px;
 }  
 
 .sticky {
