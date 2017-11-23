@@ -5,20 +5,6 @@
     margin: 0 5%;
 }
 
-noscript p {
-    background-color: #1BA6C2;
-    color: #ffffff;
-    font-style: italic;
-    max-width: 100%;
-    height: auto;
-	padding: 5px;
-	margin: 5px;
-}  
-
-noscript a:link {
-    color: #ffffff;
-}  
-
 a.back-to-top {
     display: none;
     width: 60px;
@@ -80,19 +66,38 @@ h1, h2, h3, h4 {
 
 h1.title { 
     font-size: 30px; max-width: 400px;
-    color: white;
+    color: #ffffff;
 }
+
+noscript p {
+    background-color: #1BA6C2;
+    color: #ffffff;
+    font-style: italic;
+    max-width: 100%;
+    height: auto;
+	padding: 5px;
+	margin-top: 5px;
+}  
+
+noscript a:link {
+    color: #ffffff;
+}  
 
 img {
     background-color: #1BA6C2;
     color: #ffffff;
     font-style: italic;
     max-width: 100%;
-    x-overflow: scroll;
+    x-overflow: auto;
 	height: auto;
 	padding: 5px;
 	margin: 5px;
-}  
+}
+
+img a:hover {
+	text-decoration: underline;
+}
+
 
 .sticky {
   position: -webkit-sticky;
