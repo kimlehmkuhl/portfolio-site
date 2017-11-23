@@ -79,7 +79,7 @@ noscript {
 	margin: 0 0 1em 0;
 } 
 
-a.js {
+a.js a:link {
 	color: #ffffff;
 	text-decoration: underline;
 }
