@@ -49,7 +49,7 @@ a:hover {
 .header-container a,
 .footer-container a,
 .main aside a {
-    color: white;
+    color: #ffffff;
 }
 
 .header-container a:visited,
@@ -134,7 +134,7 @@ ol li, ul li {
 
 h3 {
 	display:inline;
-{
+}
 
 #email {
     background-color: #85CBDB;
