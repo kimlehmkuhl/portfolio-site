@@ -94,6 +94,7 @@ img {
 	font-style: italic;
 	max-width: 100%;
 	overflow-x: visible;
+        white-space:nowrap;
 	height: auto;
 }
 
