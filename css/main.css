@@ -70,7 +70,8 @@ h1.title {
 } 
 	
 noscript {
-    background-color: #1BA6C2;
+    display: block;
+	background-color: #1BA6C2;
     color: #ffffff;
     font-style: italic;
     width: 100%;
