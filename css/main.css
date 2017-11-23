@@ -81,6 +81,7 @@ noscript {
 
 a.js {
 	color: #ffffff;
+	text-decoration: underline;
 }
 
 img {
@@ -88,6 +89,7 @@ img {
 	color: #ffffff;
 	font-style: italic;
 	max-width: 100%;
+	overflow-x: visible;
 	height: auto;
 }
 
