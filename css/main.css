@@ -5,6 +5,13 @@
     margin: 0 5%;
 }
 
+noscript {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
 a.back-to-top {
     display: none;
     width: 60px;
