@@ -28,11 +28,6 @@ body {
     text-align: left;
 }
 
-p { 
-    display:inline; 
-	margin: 0px 0px 5px 0px;
-}
-
 noscript {
     background-color: #1BA6C2;
     color: #ffffff;
@@ -141,6 +136,10 @@ input[type="text"], input[type="email"] {
     width: 100%;
     margin-bottom: 10px;
     height: 25px;
+}
+
+#credits { 
+    display:inline; 
 }
 
 audio,
