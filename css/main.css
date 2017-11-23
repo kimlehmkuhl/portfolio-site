@@ -83,21 +83,16 @@ noscript a:link {
     color: #ffffff;
 }  
 
+figure {
+	text-indent: 5px;
+}
+	
 img {
     background-color: #1BA6C2;
+	color: #ffffff;
+	font-style: italic;
     max-width: 100%;
 	height: auto;
-	margin-top: 10px;
-}
-
-img p {
-    color: #ffffff;
-    font-style: italic;
-	padding: 5px;
-}
-
-img a:hover {
-	text-decoration: underline;
 }
 
 .sticky {
