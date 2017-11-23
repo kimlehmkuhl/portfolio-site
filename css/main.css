@@ -77,7 +77,7 @@ noscript {
     height: auto;
 } 
 
-noscript a {
+noscript a:link {
 	color: #ffffff;
 }
 
