@@ -33,22 +33,20 @@ p {
 	margin: 0px 0px 5px 0px;
 }
 
-noscript p {
+noscript {
     background-color: #1BA6C2;
     color: #ffffff;
     font-style: italic;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-	padding: 5px;
-	margin-top: 5px;
 } 
 
 a:link {
-  color: #1BA6C2;
+	color: #1BA6C2;
 }
 
 noscript a:link {
-    color: #ffffff;
+	color: #ffffff;
 }  
 
 a:visited {
