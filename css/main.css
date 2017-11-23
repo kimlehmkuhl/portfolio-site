@@ -51,8 +51,8 @@ a:hover {
 
 .header-container a,
 .footer-container a,
-.main aside a
-.main article section noscript a {
+.main aside a, 
+.main noscript a {
     color: #ffffff;
 }
 
