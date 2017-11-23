@@ -59,6 +59,15 @@ a:hover {
     color: #335564;
 }
 
+a.icon a:link {
+	text-decoration: underline;
+}
+
+a.js a:link {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 h1, h2, h3, h4 {
 	font-family: 'Cutive Mono', monospace;
     width: 400px;
@@ -78,11 +87,6 @@ noscript {
     height: auto;
 	margin: 0 0 1em 0;
 } 
-
-a.js a:link {
-	color: #ffffff;
-	text-decoration: underline;
-}
 
 img {
 	background-color: #1BA6C2;
