@@ -5,7 +5,7 @@
     margin: 0 5%;
 }
 
-noscript {
+noscript p {
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
