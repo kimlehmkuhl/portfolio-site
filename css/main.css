@@ -78,7 +78,7 @@ noscript {
 	margin: 1em 0 1em 0;
 } 
 
-noscript a:link {
+a.js {
 	color: #ffffff;
 }
 
