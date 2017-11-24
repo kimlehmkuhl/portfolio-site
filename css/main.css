@@ -89,7 +89,7 @@ img {
 	color: #ffffff;
 	font-style: italic;
 	max-width: 100%;
-	overflow-x: visible;
+	overflow-x: auto;
         white-space:nowrap;
 	height: auto;
 }
