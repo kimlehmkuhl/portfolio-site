@@ -59,7 +59,7 @@ a:hover {
     color: #335564;
 }
 
-.js a {		
+a.js {		
  	color: #ffffff;		
  	text-decoration: underline;
 }
