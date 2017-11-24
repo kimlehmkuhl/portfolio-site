@@ -32,6 +32,11 @@ a:link {
 	color: #1BA6C2;
 }
 
+a.js a:link {		
+ 	color: #ffffff;		
+ 	text-decoration: underline;
+}
+
 a:visited {
     color: #1BA6C2;
 }
@@ -79,21 +84,12 @@ noscript {
 	margin: 0 0 1em 0;
 } 
 
-a.js {		
- 	color: #ffffff;		
- 	text-decoration: underline;
-}
-
 img {
 	background-color: #1BA6C2;
 	color: #ffffff;
 	font-style: italic;
 	max-width: 100%;
 	height: auto;
-}
-
-a.icon a:link {
-	text-decoration: underline;
 }
 
 .sticky {
