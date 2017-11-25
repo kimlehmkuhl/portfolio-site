@@ -64,6 +64,11 @@ a.js {
  	text-decoration: underline;
 }
 
+a.icon {		
+ 	color: #ffffff;		
+ 	text-decoration: underline;
+}
+
 h1, h2, h3, h4 {
 	font-family: 'Cutive Mono', monospace;
     width: 400px;
