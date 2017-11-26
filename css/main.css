@@ -41,6 +41,11 @@ a:hover {
     text-decoration: underline;
 }
 
+a.js {		
+ 	color: #ffffff;		
+ 	text-decoration: underline;
+}
+
 .header-container a,
 .footer-container a,
 .main aside a {
@@ -59,12 +64,8 @@ a:hover {
     color: #335564;
 }
 
-a.js {		
- 	color: #ffffff;		
- 	text-decoration: underline;
-}
-
-a.icon {			
+.header-container a .icon,
+.footer-container a .icon {			
  	text-decoration: underline;
 }
 
