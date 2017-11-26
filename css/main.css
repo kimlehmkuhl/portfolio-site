@@ -64,7 +64,7 @@ a.js {
     color: #335564;
 }
 
-.header-container a.icon, {			
+.header-container a.icon {			
  	text-decoration: underline;
 }
 
@@ -142,6 +142,9 @@ h3 {
     background-color: #85CBDB;
     font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
+}
+
+#email a:link {
     text-decoration: underline;
 }
 
