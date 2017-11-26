@@ -64,7 +64,7 @@ a.js {
     color: #335564;
 }
 
-span.icon {			
+span.icon a {			
  	text-decoration: underline;
 }
 
