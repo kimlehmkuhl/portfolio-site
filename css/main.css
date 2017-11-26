@@ -64,8 +64,7 @@ a.js {
     color: #335564;
 }
 
-.header-container .icon a,
-.footer-container .icon a {			
+.header-container a.icon, {			
  	text-decoration: underline;
 }
 
