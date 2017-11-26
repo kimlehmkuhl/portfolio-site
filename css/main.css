@@ -142,7 +142,8 @@ h3 {
 #email {
     background-color: #85CBDB;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;    
+    font-size: 0.75em;
+    text-decoration: underline;
 }
 
 input[type="text"], input[type="email"] {
