@@ -41,14 +41,9 @@ a:hover {
     text-decoration: underline;
 }
 
-a.js {		
- 	color: #ffffff;		
- 	text-decoration: underline;
-}
-
-.header-container a,
-.footer-container a,
-.main aside a {
+.header-container a:link,
+.footer-container a:link,
+.main aside a:link {
     color: #ffffff;
 }
 
@@ -62,6 +57,24 @@ a.js {
 .footer-container a:hover,
 .main aside a:hover {
     color: #335564;
+}
+
+a.icon a:link {
+	color: #ffffff;  
+}
+
+a.icon a:visited {
+	color: #ffffff;  
+}
+
+a.icon a:hover {
+    color: #85CBDB;   
+    text-decoration: underline;
+}
+
+a.js {		
+ 	color: #ffffff;		
+ 	text-decoration: underline;
 }
 
 h1, h2, h3, h4 {
@@ -90,10 +103,6 @@ img {
 	font-style: italic;
 	max-width: 100%;
 	height: auto;
-}
-
-img a {
-	text-decoration: underline;
 }
 
 .sticky {
