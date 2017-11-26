@@ -144,10 +144,6 @@ h3 {
     font-size: 0.75em;
 }
 
-#email a:link {
-    text-decoration: underline;
-}
-
 input[type="text"], input[type="email"] {
     width: 100%;
     margin-bottom: 10px;
