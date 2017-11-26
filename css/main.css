@@ -64,10 +64,6 @@ a.js {
     color: #335564;
 }
 
-span.icon a {			
- 	text-decoration: underline;
-}
-
 h1, h2, h3, h4 {
 	font-family: 'Cutive Mono', monospace;
     width: 400px;
@@ -94,6 +90,10 @@ img {
 	font-style: italic;
 	max-width: 100%;
 	height: auto;
+}
+
+img a {
+	text-decoration: underline;
 }
 
 .sticky {
@@ -141,7 +141,7 @@ h3 {
 img#email {
     background-color: #85CBDB;
 	font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 input[type="text"], input[type="email"] {
