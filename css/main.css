@@ -140,6 +140,7 @@ h3 {
 
 img#email {
     background-color: #85CBDB;
+	font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
 	text-decoration: underline;
 }
